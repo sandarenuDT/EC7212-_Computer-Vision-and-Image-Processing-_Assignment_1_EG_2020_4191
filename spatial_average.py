@@ -13,4 +13,4 @@ def spatial_average(image_path):
         cv2.imwrite(f"outputImages/average_{k}x{k}.jpg", blurred)
 
 
-spatial_average("inputImage/frog.jpg")
+spatial_average("inputImage/dog.jpg")

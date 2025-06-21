@@ -16,4 +16,4 @@ def reduce_intensity_levels(image_path, levels):
     cv2.imwrite(f"outputImages/reduce_intensity{levels}.jpg", reduced_image)
 
 # (2,4,8,16,32,64,128,256 levels)
-reduce_intensity_levels("inputImage/frog.jpg", 128)
+reduce_intensity_levels("inputImage/dog.jpg", 64)

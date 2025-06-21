@@ -25,4 +25,4 @@ def rotate_image(image_path):
     cv2.imwrite("outputImages/rotated_90.jpg", rotated_90)
 
 # Call the function with the image path
-rotate_image("inputImage/frog.jpg")
+rotate_image("inputImage/dog.jpg")

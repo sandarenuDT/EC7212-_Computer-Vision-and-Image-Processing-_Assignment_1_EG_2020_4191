@@ -30,4 +30,4 @@ def block_average(image_path, block_size):
 
 # Apply block averaging with block sizes 3x3, 5x5, and 7x7
 for size in [3, 5, 7]:
-    block_average("inputImage/frog.jpg", size)
+    block_average("inputImage/dog.jpg", size)
